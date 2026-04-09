@@ -1,0 +1,1489 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="key words"
+      content="موقع ثانوية ملايكة طيب , ثانوية قصر البخاري , ملايكة , ثانويات مدية"
+    />
+    <meta
+      name="descreption"
+      content="موقع ثانوية ملائكة طيب قصر بخاري بولاية مدية"
+    />
+    <meta name="author" content="فراح محمد  امين" />
+    <title>ثانوية ملايكة طيب قصر بخاري</title>
+    <style>
+      /* الجسم - الخلفية الافتراضية صفراء احترافية */
+      body {
+        background: linear-gradient(
+          135deg,
+          #f9e94e 0%,
+          #f5c518 40%,
+          #e8a800 100%
+        );
+        transition:
+          background 0.6s,
+          background-color 0.6s;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: auto;
+        align-items: auto;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      /* خلفية النجوم للوضع المظلم */
+      .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: radial-gradient(
+          ellipse at bottom,
+          #1b2735 0%,
+          #090a0f 100%
+        );
+        overflow: hidden;
+        opacity: 0;
+        transition: opacity 0.6s;
+        pointer-events: none;
+        z-index: 0;
+      }
+      body.dark-mode .container {
+        opacity: 1;
+      }
+      body.dark-mode {
+        background: #090a0f !important;
+      }
+      #stars {
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow:
+          501px 811px #fff,
+          1450px 1324px #fff,
+          1093px 1780px #fff,
+          1469px 678px #fff,
+          904px 741px #fff,
+          1160px 781px #fff,
+          1841px 1962px #fff,
+          1630px 1667px #fff,
+          1788px 676px #fff,
+          367px 1734px #fff,
+          1343px 156px #fff,
+          1283px 1142px #fff,
+          1062px 378px #fff,
+          1395px 467px #fff,
+          1017px 1891px #fff,
+          137px 1114px #fff,
+          1767px 1403px #fff,
+          1543px 11px #fff,
+          1078px 181px #fff,
+          1189px 1574px #fff,
+          1697px 1551px #fff,
+          439px 472px #fff,
+          1491px 677px #fff,
+          1364px 599px #fff,
+          34px 382px #fff,
+          1221px 1584px #fff,
+          1266px 1499px #fff,
+          169px 1907px #fff,
+          1219px 1125px #fff,
+          659px 18px #fff,
+          1731px 1959px #fff,
+          332px 1216px #fff,
+          1913px 788px #fff,
+          80px 712px #fff,
+          326px 1605px #fff,
+          574px 1502px #fff,
+          473px 1653px #fff,
+          404px 975px #fff,
+          322px 1797px #fff,
+          425px 1321px #fff,
+          1121px 1797px #fff,
+          731px 647px #fff,
+          891px 1584px #fff,
+          1523px 109px #fff,
+          1379px 244px #fff,
+          865px 1064px #fff,
+          493px 956px #fff,
+          624px 1380px #fff,
+          440px 619px #fff,
+          1630px 767px #fff,
+          955px 1196px #fff,
+          62px 729px #fff,
+          126px 946px #fff,
+          1256px 896px #fff,
+          1444px 256px #fff,
+          661px 1628px #fff,
+          1078px 1716px #fff,
+          300px 737px #fff,
+          1734px 413px #fff,
+          1296px 129px #fff,
+          1771px 1678px #fff,
+          977px 1764px #fff,
+          1879px 549px #fff,
+          665px 1531px #fff,
+          89px 701px #fff,
+          1084px 1183px #fff,
+          1597px 1576px #fff,
+          1354px 1774px #fff,
+          554px 1471px #fff,
+          1469px 287px #fff,
+          887px 106px #fff,
+          1962px 766px #fff,
+          638px 805px #fff,
+          1651px 741px #fff,
+          1517px 1826px #fff,
+          24px 1152px #fff,
+          507px 558px #fff,
+          1262px 652px #fff,
+          246px 1048px #fff,
+          1077px 421px #fff,
+          1866px 1847px #fff,
+          1986px 1561px #fff,
+          704px 632px #fff,
+          1991px 1875px #fff,
+          1227px 395px #fff,
+          45px 1116px #fff,
+          247px 786px #fff,
+          890px 607px #fff,
+          787px 1235px #fff,
+          557px 524px #fff,
+          1582px 1285px #fff,
+          1725px 1366px #fff,
+          952px 747px #fff,
+          251px 458px #fff,
+          1500px 1250px #fff,
+          1999px 1734px #fff,
+          1336px 1955px #fff,
+          1705px 1464px #fff,
+          728px 697px #fff,
+          594px 510px #fff;
+        animation: animStar 50s linear infinite;
+      }
+      #stars:after {
+        content: " ";
+        position: absolute;
+        top: 2000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow:
+          501px 811px #fff,
+          1450px 1324px #fff,
+          1093px 1780px #fff,
+          1469px 678px #fff,
+          904px 741px #fff,
+          1160px 781px #fff,
+          1841px 1962px #fff,
+          1630px 1667px #fff,
+          1788px 676px #fff,
+          367px 1734px #fff,
+          1343px 156px #fff,
+          1283px 1142px #fff,
+          1062px 378px #fff,
+          1395px 467px #fff,
+          1017px 1891px #fff,
+          137px 1114px #fff,
+          1767px 1403px #fff,
+          1543px 11px #fff,
+          1078px 181px #fff,
+          1189px 1574px #fff,
+          1697px 1551px #fff,
+          439px 472px #fff,
+          1491px 677px #fff,
+          1364px 599px #fff,
+          34px 382px #fff,
+          1221px 1584px #fff,
+          1266px 1499px #fff,
+          169px 1907px #fff,
+          1219px 1125px #fff,
+          659px 18px #fff,
+          1731px 1959px #fff,
+          332px 1216px #fff,
+          1913px 788px #fff,
+          80px 712px #fff,
+          326px 1605px #fff,
+          574px 1502px #fff,
+          473px 1653px #fff,
+          404px 975px #fff,
+          322px 1797px #fff,
+          425px 1321px #fff,
+          1121px 1797px #fff,
+          731px 647px #fff,
+          891px 1584px #fff,
+          1523px 109px #fff,
+          1379px 244px #fff,
+          865px 1064px #fff,
+          493px 956px #fff,
+          624px 1380px #fff,
+          440px 619px #fff,
+          1630px 767px #fff,
+          955px 1196px #fff,
+          62px 729px #fff,
+          126px 946px #fff,
+          1256px 896px #fff,
+          1444px 256px #fff,
+          661px 1628px #fff,
+          1078px 1716px #fff,
+          300px 737px #fff,
+          1734px 413px #fff,
+          1296px 129px #fff,
+          1771px 1678px #fff,
+          977px 1764px #fff,
+          1879px 549px #fff,
+          665px 1531px #fff,
+          89px 701px #fff,
+          1084px 1183px #fff,
+          1597px 1576px #fff,
+          1354px 1774px #fff,
+          554px 1471px #fff,
+          1469px 287px #fff,
+          887px 106px #fff,
+          1962px 766px #fff,
+          638px 805px #fff,
+          1651px 741px #fff,
+          1517px 1826px #fff,
+          24px 1152px #fff,
+          507px 558px #fff,
+          1262px 652px #fff,
+          246px 1048px #fff,
+          1077px 421px #fff,
+          1866px 1847px #fff,
+          1986px 1561px #fff,
+          704px 632px #fff,
+          1991px 1875px #fff,
+          1227px 395px #fff,
+          45px 1116px #fff,
+          247px 786px #fff,
+          890px 607px #fff,
+          787px 1235px #fff,
+          557px 524px #fff,
+          1582px 1285px #fff,
+          1725px 1366px #fff,
+          952px 747px #fff,
+          251px 458px #fff,
+          1500px 1250px #fff,
+          1999px 1734px #fff,
+          1336px 1955px #fff,
+          1705px 1464px #fff,
+          728px 697px #fff,
+          594px 510px #fff;
+      }
+      #stars2 {
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow:
+          1925px 1320px #fff,
+          693px 1778px #fff,
+          1016px 711px #fff,
+          1171px 563px #fff,
+          661px 1919px #fff,
+          1610px 44px #fff,
+          1275px 140px #fff,
+          1208px 1802px #fff,
+          1473px 1587px #fff,
+          11px 1117px #fff,
+          853px 1757px #fff,
+          1149px 937px #fff,
+          1353px 428px #fff,
+          270px 279px #fff,
+          258px 1404px #fff,
+          417px 1188px #fff,
+          286px 561px #fff,
+          393px 1765px #fff,
+          147px 881px #fff,
+          666px 1097px #fff,
+          1425px 1278px #fff,
+          806px 156px #fff,
+          1252px 561px #fff,
+          218px 52px #fff,
+          1371px 1980px #fff,
+          171px 745px #fff,
+          1424px 89px #fff,
+          137px 244px #fff,
+          939px 1922px #fff,
+          137px 1080px #fff,
+          1757px 50px #fff,
+          904px 536px #fff,
+          1938px 1001px #fff,
+          1172px 440px #fff,
+          72px 1475px #fff,
+          102px 121px #fff,
+          804px 1671px #fff,
+          1314px 270px #fff,
+          440px 1341px #fff,
+          1216px 511px #fff,
+          1061px 1523px #fff,
+          97px 274px #fff,
+          704px 1318px #fff,
+          52px 1872px #fff,
+          1962px 296px #fff,
+          111px 289px #fff,
+          1157px 1236px #fff,
+          1347px 1451px #fff,
+          820px 286px #fff,
+          1389px 1169px #fff;
+        animation: animStar 100s linear infinite;
+      }
+      #stars2:after {
+        content: " ";
+        position: absolute;
+        top: 2000px;
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow:
+          1925px 1320px #fff,
+          693px 1778px #fff,
+          1016px 711px #fff,
+          1171px 563px #fff,
+          661px 1919px #fff,
+          1610px 44px #fff,
+          1275px 140px #fff,
+          1208px 1802px #fff,
+          1473px 1587px #fff,
+          11px 1117px #fff,
+          853px 1757px #fff,
+          1149px 937px #fff,
+          1353px 428px #fff,
+          270px 279px #fff,
+          258px 1404px #fff,
+          417px 1188px #fff,
+          286px 561px #fff,
+          393px 1765px #fff,
+          147px 881px #fff,
+          666px 1097px #fff,
+          1425px 1278px #fff,
+          806px 156px #fff,
+          1252px 561px #fff,
+          218px 52px #fff,
+          1371px 1980px #fff,
+          171px 745px #fff,
+          1424px 89px #fff,
+          137px 244px #fff,
+          939px 1922px #fff,
+          137px 1080px #fff,
+          1757px 50px #fff,
+          904px 536px #fff,
+          1938px 1001px #fff,
+          1172px 440px #fff,
+          72px 1475px #fff,
+          102px 121px #fff,
+          804px 1671px #fff,
+          1314px 270px #fff,
+          440px 1341px #fff,
+          1216px 511px #fff,
+          1061px 1523px #fff,
+          97px 274px #fff,
+          704px 1318px #fff,
+          52px 1872px #fff,
+          1962px 296px #fff,
+          111px 289px #fff,
+          1157px 1236px #fff,
+          1347px 1451px #fff,
+          820px 286px #fff,
+          1389px 1169px #fff;
+      }
+      #stars3 {
+        width: 3px;
+        height: 3px;
+        background: transparent;
+        box-shadow:
+          200px 981px #fff,
+          1731px 521px #fff,
+          132px 1039px #fff,
+          1888px 1547px #fff,
+          899px 1226px #fff,
+          1887px 580px #fff,
+          1548px 1092px #fff,
+          1626px 689px #fff,
+          254px 1072px #fff,
+          1684px 1211px #fff,
+          672px 1267px #fff,
+          939px 668px #fff,
+          1969px 645px #fff,
+          1126px 983px #fff,
+          457px 568px #fff,
+          476px 876px #fff,
+          829px 1896px #fff,
+          1364px 1846px #fff,
+          1507px 1120px #fff,
+          936px 1948px #fff,
+          1833px 832px #fff,
+          1424px 285px #fff,
+          1377px 1596px #fff,
+          432px 153px #fff,
+          1348px 1410px #fff,
+          1529px 954px #fff,
+          1102px 387px #fff,
+          264px 297px #fff,
+          811px 977px #fff,
+          1931px 673px #fff;
+        animation: animStar 150s linear infinite;
+      }
+      #stars3:after {
+        content: " ";
+        position: absolute;
+        top: 2000px;
+        width: 3px;
+        height: 3px;
+        background: transparent;
+        box-shadow:
+          200px 981px #fff,
+          1731px 521px #fff,
+          132px 1039px #fff,
+          1888px 1547px #fff,
+          899px 1226px #fff,
+          1887px 580px #fff,
+          1548px 1092px #fff,
+          1626px 689px #fff,
+          254px 1072px #fff,
+          1684px 1211px #fff,
+          672px 1267px #fff,
+          939px 668px #fff,
+          1969px 645px #fff,
+          1126px 983px #fff,
+          457px 568px #fff,
+          476px 876px #fff,
+          829px 1896px #fff,
+          1364px 1846px #fff,
+          1507px 1120px #fff,
+          936px 1948px #fff,
+          1833px 832px #fff,
+          1424px 285px #fff,
+          1377px 1596px #fff,
+          432px 153px #fff,
+          1348px 1410px #fff,
+          1529px 954px #fff,
+          1102px 387px #fff,
+          264px 297px #fff,
+          811px 977px #fff,
+          1931px 673px #fff;
+      }
+      @keyframes animStar {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-2000px);
+        }
+      }
+      /* العناوين */
+      .title {
+        text-align: right;
+        font-family: "Courier New", Courier, monospace;
+        font-size: large;
+        text-decoration-color: azure;
+        font-weight: bolder;
+        margin-right: 40px;
+        margin: 5px;
+      }
+      /* تنسيق نص الباينري */
+      .say-hello-in-binary {
+        text-align: right;
+        font-size: 1.1rem; /* تكبير الحجم */
+        font-weight: 900;
+        color: #00008b;
+        letter-spacing: 1.5px; /* مسافة بين الأرقام لتعطي شكلاً احترافياً */
+        line-height: 1;
+        margin: 5px;
+        word-break: break-all; /* لضمان توزيع الأرقام بشكل جيد */
+      }
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      /* wrapper الكارتين */
+      .cards-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+        padding: 20px 40px;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+      }
+      .cards-wrapper:hover > .card:not(:hover) {
+        filter: blur(6px);
+        transform: scale(0.97);
+      }
+
+      /* تعديل الـ Card لضمان محاذاة كل شيء لليمين */
+      .card {
+        width: 45%;
+        max-width: 580px;
+        min-height: 400px;
+        padding: 30px;
+        border-radius: 50px;
+        background: #eeecd4;
+        box-shadow:
+          15px 15px 30px #bee418,
+          -15px -15px 30px #7e8822;
+        display: flex;
+        flex-direction: column;
+        animation: fadeInUp 1.2s ease-out;
+        position: relative;
+        transition:
+          filter 0.4s ease,
+          transform 0.4s ease,
+          background 0.6s;
+      }
+      body.dark-mode .card {
+        background: #2a2d35;
+        box-shadow:
+          15px 15px 30px #111318,
+          -15px -15px 30px #1e2128;
+      }
+      /* الحفاظ على العنوان الكبير في المنتصف */
+      .uptitle {
+        text-align: center; /* العنوان الوحيد في الوسط */
+        font-family: "Courier New", Courier, monospace;
+        font-size: xx-large;
+        color: #555;
+        margin-bottom: 15px;
+      }
+
+      /* جعل العناوين الجانبية والنصوص العادية لليمين */
+      .title-section,
+      .normaltext,
+      .say-hello-in-binary {
+        text-align: right;
+        margin-right: 5px;
+      }
+
+      .normaltext {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 1.1rem;
+        white-space: initial; /* للحفاظ على تنسيق الـ pre */
+      }
+      /* --- إعدادات الزر في أسفل اليمين --- */
+      .switch-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+      }
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+
+      .switch #input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #2196f3;
+        transition: 0.4s;
+        z-index: 0;
+        overflow: hidden;
+        border-radius: 34px;
+      }
+
+      .sun-moon {
+        position: absolute;
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: yellow;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
+
+      #input:checked + .slider {
+        background-color: black;
+      }
+
+      #input:checked + .slider .sun-moon {
+        transform: translateX(26px);
+        background-color: white;
+      }
+
+      /* العناصر الداخلية (الغيوم والنجوم) */
+      .moon-dot {
+        opacity: 0;
+        transition: 0.4s;
+        fill: gray;
+      }
+      #input:checked + .slider .sun-moon .moon-dot {
+        opacity: 1;
+      }
+
+      #moon-dot-1 {
+        left: 10px;
+        top: 3px;
+        position: absolute;
+        width: 6px;
+        height: 6px;
+      }
+      #moon-dot-2 {
+        left: 2px;
+        top: 10px;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+      }
+      #moon-dot-3 {
+        left: 16px;
+        top: 18px;
+        position: absolute;
+        width: 3px;
+        height: 3px;
+      }
+
+      .cloud-light,
+      .cloud-dark {
+        position: absolute;
+        animation: cloud-move 6s infinite;
+      }
+      .cloud-light {
+        fill: #eee;
+      }
+      .cloud-dark {
+        fill: #ccc;
+        animation-delay: 1s;
+      }
+
+      #cloud-1 {
+        left: 30px;
+        top: 15px;
+        width: 40px;
+      }
+      #cloud-4 {
+        left: 36px;
+        top: 18px;
+        width: 40px;
+      }
+
+      @keyframes cloud-move {
+        0%,
+        100% {
+          transform: translateX(0px);
+        }
+        40% {
+          transform: translateX(4px);
+        }
+        80% {
+          transform: translateX(-4px);
+        }
+      }
+
+      .stars {
+        transform: translateY(-32px);
+        opacity: 0;
+        transition: 0.4s;
+      }
+      .star {
+        fill: white;
+        position: absolute;
+        animation: star-twinkle 2s infinite;
+      }
+
+      #input:checked + .slider .stars {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      #star-1 {
+        width: 10px;
+        top: 5px;
+        left: 5px;
+      }
+      #star-2 {
+        width: 5px;
+        top: 18px;
+        left: 10px;
+      }
+
+      @keyframes star-twinkle {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+      }
+      /* تأثير الحركة عند الدخول */
+      .footer-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: -2px;
+        position: relative;
+        z-index: 1;
+      }
+      .custom-btn {
+        background: #fffffd;
+        border: none;
+        padding: 10px 20px;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        width: 130px; /* قمت بزيادته قليلا فقط ليتسع للنص الذي طلبته */
+        text-transform: uppercase;
+        cursor: pointer;
+        transform: skew(-21deg);
+        /* الإضافات الضرورية لكي لا يخرب التصميم */
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        display: block; /* تحويله لعنصر بلوك */
+        margin-left: auto; /* دفع من اليسار */
+        margin-right: auto; /* دفع من اليمين */
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+      }
+      .custom-btn span {
+        display: inline-block;
+        transform: skew(21deg);
+      }
+
+      .custom-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 100%;
+        left: 0;
+        background: rgba(202, 43, 43, 0.404);
+        opacity: 0;
+        z-index: -1;
+        transition: all 0.5s;
+      }
+
+      .custom-btn:hover {
+        color: #fff;
+      }
+
+      .custom-btn:hover::before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+      }
+
+      /* ---------------- MECHA BUTTON ---------------- */
+      .post888-mecha {
+        display: inline-block;
+        font-family: system-ui, sans-serif;
+      }
+      .post888-mecha__toggle {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+      }
+      .post888-mecha__frame {
+        position: relative;
+        display: inline-block;
+        padding: 24px 28px 26px 28px;
+        border-radius: 18px;
+        background: linear-gradient(180deg, #0a0e19, #05060a);
+        box-shadow:
+          0 12px 32px rgba(0, 0, 0, 0.65),
+          inset 0 0 0 1px rgba(125, 249, 255, 0.08);
+        cursor: pointer;
+        user-select: none;
+      }
+      .post888-mecha__button {
+        position: relative;
+        width: 210px;
+        height: 64px;
+        border-radius: 14px;
+        background: linear-gradient(180deg, #1b2134, #0e1324);
+        box-shadow:
+          inset 0 2px 0 rgba(255, 255, 255, 0.06),
+          inset 0 -8px 14px rgba(0, 0, 0, 0.9),
+          0 10px 0 #03040a,
+          0 18px 26px rgba(0, 0, 0, 0.7);
+        transform: translateY(0);
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease,
+          filter 0.18s ease;
+      }
+      .post888-mecha__button-face {
+        position: absolute;
+        inset: 6px;
+        border-radius: 10px;
+        background:
+          radial-gradient(
+            120px circle at 20% 20%,
+            rgba(125, 249, 255, 0.18),
+            transparent 50%
+          ),
+          linear-gradient(180deg, #11162b, #0a0f1f);
+        box-shadow:
+          inset 0 0 0 1px rgba(125, 249, 255, 0.18),
+          inset 0 0 18px rgba(88, 199, 255, 0.12);
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+      }
+      .post888-mecha__text {
+        position: absolute;
+        font-weight: 700;
+        letter-spacing: 0.22em;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        transition:
+          opacity 0.2s ease,
+          transform 0.2s ease;
+      }
+      .post888-mecha__text--off {
+        opacity: 1;
+        transform: translateY(0);
+        color: #dbeafe;
+        text-shadow: 0 0 10px rgba(125, 249, 255, 0.35);
+      }
+      .post888-mecha__text--on {
+        opacity: 0;
+        transform: translateY(8px);
+        color: #a7f3d0;
+        text-shadow: 0 0 12px rgba(34, 197, 94, 0.55);
+      }
+      .post888-mecha__frame:hover .post888-mecha__button {
+        filter: brightness(1.05);
+      }
+      .post888-mecha__arm {
+        position: absolute;
+        left: -3px;
+        top: -2px;
+        width: 140px;
+        height: 110px;
+        transform-origin: 24px 24px;
+        transform: rotate(-17deg);
+        transition: transform 0.35s ease;
+        pointer-events: none;
+      }
+      .post888-mecha__arm-base {
+        position: absolute;
+        left: 10px;
+        top: 14px;
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #1d2438, #0b1020);
+        box-shadow:
+          inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+          0 6px 12px rgba(0, 0, 0, 0.6);
+      }
+      .post888-mecha__arm-joint {
+        position: absolute;
+        left: 36px;
+        top: 28px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: radial-gradient(circle, #9fb3d9, #1b243b);
+        box-shadow: 0 0 8px rgba(125, 249, 255, 0.25);
+      }
+      .post888-mecha__arm-fore {
+        position: absolute;
+        left: 44px;
+        top: 32px;
+        width: 62px;
+        height: 12px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #232b44, #0f162b);
+        box-shadow:
+          inset 0 0 0 1px rgba(125, 249, 255, 0.12),
+          0 4px 8px rgba(0, 0, 0, 0.6);
+      }
+      .post888-mecha__claw {
+        position: absolute;
+        left: 96px;
+        top: 20px;
+        width: 34px;
+        height: 34px;
+        transform-origin: 0 50%;
+        transition: transform 0.25s ease;
+      }
+      .post888-mecha__claw-finger {
+        position: absolute;
+        width: 28px;
+        height: 8px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, #2a3552, #10172c);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+        transform-origin: 2px 50%;
+        transition: transform 0.25s ease;
+      }
+      .post888-mecha__claw-finger--top {
+        top: 5px;
+        transform: rotate(22deg);
+      }
+      .post888-mecha__claw-finger--bottom {
+        bottom: 4px;
+        transform: rotate(-20deg);
+      }
+      .post888-mecha__led {
+        position: absolute;
+        right: 14px;
+        top: 12px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: radial-gradient(circle, #334155, #0b1020);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+        transition:
+          background 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+      .post888-mecha__frame:hover .post888-mecha__arm {
+        transform: rotate(2deg) translateX(6px);
+      }
+      .post888-mecha__frame:hover .post888-mecha__claw {
+        transform: translateX(6px);
+      }
+      .post888-mecha__frame:hover .post888-mecha__claw-finger--top {
+        transform: rotate(6deg);
+      }
+      .post888-mecha__frame:hover .post888-mecha__claw-finger--bottom {
+        transform: rotate(-6deg);
+      }
+      .post888-mecha__toggle:checked
+        + .post888-mecha__frame
+        .post888-mecha__arm {
+        transform: rotate(10deg) translateX(12px) translateY(6px);
+      }
+      .post888-mecha__toggle:checked
+        + .post888-mecha__frame
+        .post888-mecha__claw-finger--top {
+        transform: rotate(34deg);
+      }
+      .post888-mecha__toggle:checked
+        + .post888-mecha__frame
+        .post888-mecha__claw-finger--bottom {
+        transform: rotate(-34deg);
+      }
+      .post888-mecha__toggle:checked
+        + .post888-mecha__frame
+        .post888-mecha__button {
+        transform: translateY(6px);
+        box-shadow:
+          inset 0 2px 0 rgba(255, 255, 255, 0.04),
+          inset 0 -6px 10px rgba(0, 0, 0, 0.9),
+          0 4px 0 #03040a,
+          0 10px 18px rgba(0, 0, 0, 0.8);
+      }
+      .post888-mecha__toggle:checked
+        + .post888-mecha__frame
+        .post888-mecha__text--off {
+        opacity: 0;
+        transform: translateY(-8px);
+      }
+      .post888-mecha__toggle:checked
+        + .post888-mecha__frame
+        .post888-mecha__text--on {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .post888-mecha__toggle:checked
+        + .post888-mecha__frame
+        .post888-mecha__led {
+        background: radial-gradient(circle, #86efac, #16a34a);
+        box-shadow:
+          0 0 8px rgba(34, 197, 94, 0.9),
+          0 0 16px rgba(34, 197, 94, 0.55);
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .post888-mecha__button,
+        .post888-mecha__arm,
+        .post888-mecha__claw,
+        .post888-mecha__claw-finger,
+        .post888-mecha__text,
+        .post888-mecha__led {
+          transition: none;
+        }
+      }
+      /* wrapper لتوسيط الزر داخل الـ card */
+      .mecha-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+      }
+
+      /* ---------------- UX VAULT TOGGLE ---------------- */
+      .ux-vault-toggle {
+        --color-slate-base: #1e2124;
+        --color-slate-dark: #111315;
+        --color-slate-light: #2c3035;
+        --color-amber: #f59e0b;
+        --color-emerald: #10b981;
+        --color-text-dim: #6b7280;
+        --track-w: 140px;
+        --track-h: 60px;
+        --thumb-size: 50px;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .ux-vault-toggle__input {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        pointer-events: none;
+      }
+      .ux-vault-toggle__wrapper {
+        width: var(--track-w);
+        height: var(--track-h);
+        position: relative;
+        border-radius: 40px;
+        background: var(--color-slate-base);
+        box-shadow:
+          0 0 0 2px var(--color-slate-dark),
+          0 8px 24px rgba(0, 0, 0, 0.6);
+        isolation: isolate;
+      }
+      .ux-vault-toggle__filter {
+        position: absolute;
+        pointer-events: none;
+      }
+      .ux-vault-toggle__track {
+        position: absolute;
+        inset: 2px;
+        border-radius: 38px;
+        background: var(--color-slate-dark);
+        box-shadow:
+          inset 0 8px 16px rgba(0, 0, 0, 0.9),
+          inset 0 3px 6px rgba(0, 0, 0, 0.7),
+          inset 0 -2px 4px rgba(255, 255, 255, 0.03);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+      }
+      .ux-vault-toggle__texture {
+        position: absolute;
+        inset: 0;
+        background: var(--color-slate-dark);
+        filter: url(#ux-metal-noise);
+        opacity: 0.6;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+      }
+      .ux-vault-toggle__circuit {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 1;
+      }
+      .ux-circuit-path {
+        fill: none;
+        stroke-width: 2;
+        stroke-dasharray: 100;
+        stroke-linecap: round;
+        transition:
+          stroke-dashoffset 0.6s cubic-bezier(0.65, 0, 0.35, 1),
+          stroke 0.6s ease;
+      }
+      .ux-circuit--off {
+        stroke: var(--color-amber);
+        stroke-dashoffset: 0;
+        opacity: 0.4;
+      }
+      .ux-circuit--on {
+        stroke: var(--color-emerald);
+        stroke-dashoffset: 100;
+        opacity: 0.4;
+      }
+      .ux-vault-toggle__status {
+        position: absolute;
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        letter-spacing: 2px;
+        display: flex;
+        z-index: 2;
+      }
+      .ux-vault-toggle__status span {
+        display: inline-block;
+        transition:
+          transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+          opacity 0.4s ease,
+          color 0.4s ease;
+        transition-delay: calc(var(--i) * 0.05s);
+      }
+      .ux-vault-toggle__status--off {
+        right: 24px;
+        color: var(--color-amber);
+        text-shadow: 0 0 8px rgba(245, 158, 11, 0.4);
+      }
+      .ux-vault-toggle__status--on {
+        left: 24px;
+        color: var(--color-emerald);
+        text-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+      }
+      .ux-vault-toggle__status--on span {
+        opacity: 0;
+        transform: translateY(15px) scale(0.8);
+        color: var(--color-text-dim);
+      }
+      .ux-vault-toggle__thumb {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: var(--thumb-size);
+        height: var(--thumb-size);
+        border-radius: 50%;
+        background: linear-gradient(
+          145deg,
+          var(--color-slate-light),
+          var(--color-slate-base)
+        );
+        box-shadow:
+          0 8px 16px rgba(0, 0, 0, 0.6),
+          0 4px 8px rgba(0, 0, 0, 0.5),
+          inset 0 2px 4px rgba(255, 255, 255, 0.15),
+          inset 0 -3px 6px rgba(0, 0, 0, 0.5);
+        z-index: 3;
+        transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .ux-vault-toggle__thumb-ring {
+        position: absolute;
+        inset: 2px;
+        border-radius: 50%;
+        background: linear-gradient(to bottom, #3a3f46, #1a1d21);
+        box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.8);
+        z-index: 1;
+      }
+      .ux-vault-toggle__thumb-core {
+        position: absolute;
+        inset: 8px;
+        border-radius: 50%;
+        background: var(--color-slate-dark);
+        border: 2px solid var(--color-amber);
+        box-shadow:
+          inset 0 0 10px rgba(245, 158, 11, 0.3),
+          0 0 15px rgba(245, 158, 11, 0.4);
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition:
+          border-color 0.6s ease,
+          box-shadow 0.6s ease;
+      }
+      .ux-thumb-icon {
+        width: 18px;
+        height: 18px;
+        color: var(--color-amber);
+        transition:
+          color 0.6s ease,
+          transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      .ux-vault-toggle__thumb-glare {
+        position: absolute;
+        top: 2px;
+        left: 10%;
+        width: 80%;
+        height: 40%;
+        border-radius: 50%;
+        background: linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.15),
+          transparent
+        );
+        z-index: 4;
+        pointer-events: none;
+      }
+      .ux-vault-toggle__input:checked
+        ~ .ux-vault-toggle__wrapper
+        .ux-vault-toggle__thumb {
+        transform: translateX(80px);
+      }
+      .ux-vault-toggle__input:checked
+        ~ .ux-vault-toggle__wrapper
+        .ux-vault-toggle__thumb-core {
+        border-color: var(--color-emerald);
+        box-shadow:
+          inset 0 0 12px rgba(16, 185, 129, 0.4),
+          0 0 20px rgba(16, 185, 129, 0.5);
+      }
+      .ux-vault-toggle__input:checked
+        ~ .ux-vault-toggle__wrapper
+        .ux-thumb-icon {
+        color: var(--color-emerald);
+        transform: rotate(180deg) scale(1.1);
+      }
+      .ux-vault-toggle__input:checked
+        ~ .ux-vault-toggle__wrapper
+        .ux-circuit--off {
+        stroke-dashoffset: -100;
+        opacity: 0;
+      }
+      .ux-vault-toggle__input:checked
+        ~ .ux-vault-toggle__wrapper
+        .ux-circuit--on {
+        stroke-dashoffset: 0;
+        opacity: 0.8;
+      }
+      .ux-vault-toggle__input:checked
+        ~ .ux-vault-toggle__wrapper
+        .ux-vault-toggle__status--off
+        span {
+        opacity: 0;
+        transform: translateY(-15px) scale(0.8);
+        color: var(--color-text-dim);
+      }
+      .ux-vault-toggle__input:checked
+        ~ .ux-vault-toggle__wrapper
+        .ux-vault-toggle__status--on
+        span {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        color: var(--color-emerald);
+      }
+      .ux-vault-toggle:hover .ux-vault-toggle__thumb-core {
+        box-shadow:
+          inset 0 0 15px rgba(245, 158, 11, 0.5),
+          0 0 25px rgba(245, 158, 11, 0.6);
+      }
+      .ux-vault-toggle__input:checked:hover
+        ~ .ux-vault-toggle__wrapper
+        .ux-vault-toggle__thumb-core {
+        box-shadow:
+          inset 0 0 15px rgba(16, 185, 129, 0.6),
+          0 0 25px rgba(16, 185, 129, 0.7);
+      }
+      .ux-vault-toggle:active .ux-vault-toggle__thumb {
+        transform: scale(0.95);
+      }
+      .ux-vault-toggle__input:checked:active
+        ~ .ux-vault-toggle__wrapper
+        .ux-vault-toggle__thumb {
+        transform: translateX(80px) scale(0.95);
+      }
+    </style>
+  </head>
+  <body id="mainBody">
+    <div class="container">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </div>
+
+    <div class="switch-container">
+      <label class="ux-vault-toggle">
+        <input
+          type="checkbox"
+          class="ux-vault-toggle__input"
+          onchange="toggleTheme()"
+        />
+        <div class="ux-vault-toggle__wrapper">
+          <svg class="ux-vault-toggle__filter" width="0" height="0">
+            <defs>
+              <filter id="ux-metal-noise">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency="0.75"
+                  numOctaves="3"
+                  result="noise"
+                ></feTurbulence>
+                <feColorMatrix
+                  type="matrix"
+                  values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.12 0"
+                  in="noise"
+                  result="coloredNoise"
+                ></feColorMatrix>
+                <feComposite
+                  operator="in"
+                  in="coloredNoise"
+                  in2="SourceGraphic"
+                  result="composite"
+                ></feComposite>
+                <feBlend
+                  mode="multiply"
+                  in="composite"
+                  in2="SourceGraphic"
+                ></feBlend>
+              </filter>
+            </defs>
+          </svg>
+          <div class="ux-vault-toggle__track">
+            <div class="ux-vault-toggle__texture"></div>
+            <svg class="ux-vault-toggle__circuit" viewBox="0 0 140 60">
+              <path
+                d="M 35 30 L 60 30 L 75 18 L 115 18"
+                class="ux-circuit-path ux-circuit--off"
+              ></path>
+              <path
+                d="M 25 42 L 65 42 L 80 30 L 105 30"
+                class="ux-circuit-path ux-circuit--on"
+              ></path>
+            </svg>
+            <div class="ux-vault-toggle__status ux-vault-toggle__status--off">
+              <span style="--i: 1">LI</span><span style="--i: 2">G</span
+              ><span style="--i: 3">HT</span>
+            </div>
+            <div class="ux-vault-toggle__status ux-vault-toggle__status--on">
+              <span style="--i: 1">DA</span><span style="--i: 2">RK</span>
+            </div>
+          </div>
+          <div class="ux-vault-toggle__thumb">
+            <div class="ux-vault-toggle__thumb-ring"></div>
+            <div class="ux-vault-toggle__thumb-core">
+              <svg
+                class="ux-thumb-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="5"></circle>
+                <path
+                  d="M12 2 L12 5 M12 19 L12 22 M2 12 L5 12 M19 12 L22 12"
+                ></path>
+              </svg>
+            </div>
+            <div class="ux-vault-toggle__thumb-glare"></div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="cards-wrapper">
+      <div class="card">
+        <p class="uptitle">مرحباً بكم في ثانوية ملايكة طيب</p>
+
+        <p class="say-hello-in-binary">
+          11011000 10100111 11011000 10110010 11011000<br />
+          10101100 11011000 10101010 11011000 10100111<br />
+          00100000 11011000 10101010 11011001 10000110
+        </p>
+
+        <p class="normaltext">
+          ✨ هذه العبارة مكتوبة بلغة الباينري، وتعني:
+          <strong>مرحباً بكم</strong>
+        </p>
+
+        <div class="title-section">
+          <h3 class="title">نبذة عن المؤسسة</h3>
+        </div>
+
+        <p class="normaltext">
+          ثانوية <strong>ملايكة طيب</strong> هي مؤسسة تعليمية تقع في مدينة قصر
+          البخاري بولاية المدية، وتُعد من بين الثانويات التي تسعى إلى التميز
+          العلمي والتربوي، حيث تحتضن نخبة من التلاميذ المتفوقين على المستوى
+          الولائي.
+        </p>
+
+        <p class="normaltext">
+          📍 <strong>العنوان:</strong> VQG4+CRQ, Ksar El Boukhari<br />
+          ☎️ <strong>الهاتف:</strong> 025 70 31 36
+        </p>
+
+        <div class="title-section">
+          <h3 class="title">إحصائيات المؤسسة</h3>
+        </div>
+
+        <p class="normaltext">
+          👨‍🏫 <strong>عدد الطاقم:</strong> 244 (أساتذة، إداريون، عمال)<br />
+          🎓 <strong>عدد التلاميذ:</strong> 350 تلميذاً<br />
+          🏫 <strong>عدد الأقسام:</strong> 12 قسماً<br />
+          🔬 <strong>عدد المخابر:</strong> 4 مخابر
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="footer-link-container">
+          <div class="post888-mecha">
+            <input
+              id="post888-toggle"
+              class="post888-mecha__toggle"
+              type="checkbox"
+            />
+            <label
+              class="post888-mecha__frame"
+              for="post888-toggle"
+              aria-label="click here"
+              onclick="window.location.href = 'rights.html'"
+            >
+              <div class="post888-mecha__arm">
+                <div class="post888-mecha__arm-base"></div>
+                <div class="post888-mecha__arm-joint"></div>
+                <div class="post888-mecha__arm-fore"></div>
+                <div class="post888-mecha__claw">
+                  <div
+                    class="post888-mecha__claw-finger post888-mecha__claw-finger--top"
+                  ></div>
+                  <div
+                    class="post888-mecha__claw-finger post888-mecha__claw-finger--bottom"
+                  ></div>
+                </div>
+              </div>
+              <div class="post888-mecha__button">
+                <div class="post888-mecha__button-face">
+                  <span class="post888-mecha__text post888-mecha__text--on"
+                    >Loading ...</span
+                  >
+                  <span class="post888-mecha__text post888-mecha__text--off"
+                    >صاحب المشروع و المشرف</span
+                  >
+                </div>
+              </div>
+              <div class="post888-mecha__led"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleTheme() {
+        const checkbox = document.querySelector(".ux-vault-toggle__input");
+        const body = document.getElementById("mainBody");
+
+        if (checkbox.checked) {
+          body.style.backgroundColor = "";
+          body.style.background = "";
+          body.classList.add("dark-mode");
+        } else {
+          body.classList.remove("dark-mode");
+        }
+      }
+    </script>
+  </body>
+</html>
